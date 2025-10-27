@@ -1262,7 +1262,7 @@ async def chk_command(update: Update, context: CallbackContext):
 ━━━━━━━━
 <code>「✰」 {cc_number}</code>
 <b>「✰」 Status ⬌</b> <b><i>𝘿𝙚𝙘𝙡𝙞𝙣𝙚𝙙 ❌ </i></b>
-<b>「✰」 Response ⬌</b> <code> {api_response[:100] + '...' if api_response and len(api_response) > 100 else api_response or Declined </code>
+f"<b>[⭐] Response:</b> <code>{api_response[:100] + '...' if api_response and len(api_response) > 100 else (api_response or 'Declined')}</code>"
 
 <code>「✰」 Type: {bin_info.get('brand', 'N/A')} - {bin_info.get('type', 'N/A')}</code>
 <code>「✰」 Bank: {bin_info.get('bank', 'N/A')}</code>
@@ -1462,4 +1462,5 @@ def main():
             print("🔄 Restarting bot now...")
 
 if __name__ == '__main__':
+
     main()
