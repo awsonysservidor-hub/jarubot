@@ -1165,14 +1165,14 @@ async def start_command(update: Update, context: CallbackContext):
     welcome_text = f"""
 <b>⛅️ JARU CC CHK</b> ↯
 
-[「✰」 <b>🚀 MAIN PANEL</b> 「✰」]
+[そ] <b>🚀 𝗣𝗮𝗻𝗲𝗹 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹 </b> [そ]
 
-⌥ <code>チ 𝗛𝗼𝗹𝗮 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 𝗮 𝗝𝗮𝗿𝘂 𝗰𝗵𝗸 𝗽𝗿𝗼𝗻𝘁𝗼 𝘀𝗲𝗿𝗲𝗺𝗼𝘀 𝗲𝗹 𝗰𝗵𝗸 𝗡𝘂𝗺𝗲𝗿𝗼𝘀 #1 チ</code>
+ <code>チ 𝗛𝗼𝗹𝗮 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 𝗮 𝗝𝗮𝗿𝘂 𝗰𝗵𝗸 𝗽𝗿𝗼𝗻𝘁𝗼 𝘀𝗲𝗿𝗲𝗺𝗼𝘀 𝗲𝗹 𝗰𝗵𝗸 𝗡𝘂𝗺𝗲𝗿𝗼𝘀 #1 チ</code>
 
 <code>Status: {user_status.upper()} | Limit: {get_user_limit(user_id)} CCs</code>
 <code>ID: {user_id} | Time: {current_time}</code>
 
-[「✰」 <b>Bot Status</b> ⬌ <code>Online 🟢</code>]
+[ <b>Bot Status</b> ⬌ <code>Online 🟢</code> ]
     """
     
     await update.message.reply_text(
@@ -1464,6 +1464,7 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
 
 
