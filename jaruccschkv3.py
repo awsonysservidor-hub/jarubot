@@ -860,7 +860,7 @@ async def handle_document(update: Update, context: CallbackContext):
         return
     
     try:
-        await update.message.reply_text("All CCs are being verified... bot by @SoyJaruTsb")
+        await update.message.reply_text(" チ 𝗧𝗼𝗱𝗮 𝗹𝗮𝘀 𝗰𝗰𝘀 𝗲𝘀𝘁𝗮𝗻 𝘀𝗶𝗲𝗻𝗱𝗼 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗱𝗮𝘀 𝗽𝗼𝗿 𝗲𝗹 𝗯𝗼𝘁 チ 𝗕𝘆 @SoyJaruTsb")
         file = await document.get_file()
         file_content = await file.download_as_bytearray()
         
@@ -1464,4 +1464,5 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
