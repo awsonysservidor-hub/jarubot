@@ -1296,11 +1296,11 @@ async def code_command(update: Update, context: CallbackContext):
         days = int(context.args[0])
         code = generate_premium_code(days)
         await update.message.reply_text(f"""
-<b>🌤 VIP KEY JARUCHK</b>
+<b>𝙆𝙚𝙮 𝙂𝙚𝙣𝙚𝙧𝙖𝙙𝙖 𝙘𝙤𝙣 𝙚𝙭𝙞𝙩𝙤 ✅</b>
 ━━━━━━━━                                   
-<code>「✰」 Code: {code}</code>
-<code>「✰」 Duration: {days} days</code>
-<code>「✰」 Usage: /redeem {code}</code>
+<code>[玄]  𝙆𝙚𝙮: {code}</code>
+<code>[玄]  𝗗𝘂𝗿𝗮𝗰𝗶𝗼𝗻: {days} days</code>
+<code>[玄]  𝗨𝘀𝗮: /redeem {code}</code>
 ━━━━━━━━
 <code>API: @SoyJaruTsb</code>
         """, parse_mode='HTML')
@@ -1464,5 +1464,6 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
 
