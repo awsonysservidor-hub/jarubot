@@ -1330,13 +1330,13 @@ async def redeem_command(update: Update, context: CallbackContext):
     conn.close()
     expiry_date = datetime.fromtimestamp(expires_at).strftime("%Y-%m-%d %H:%M:%S")
     await update.message.reply_text(f"""
-<b>🎉 PREMIUM ACTIVATED</b>
+<b>🌤 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 𝗔𝗖𝗧𝗜𝗩𝗔𝗗𝗢</b>
 ━━━━━━━━                                
-<b>✅ You are now Premium User!</b>
-<code>「✰」 Expires: {expiry_date}</code>
-<code>「✰」 Features unlocked</code>
-<code>「✰」 Limit: {PREMIUM_LIMIT} CCs</code>
-<code>「✰」 Priority processing</code>
+<b>✅ 𝗔𝗵𝗼𝗿𝗮 𝗲𝗿𝗲𝘀 𝘂𝘀𝘂𝗮𝗿𝗶𝗼 𝗣𝗿𝗲𝗺𝗶𝘂𝗺</b>
+<code> [玄] Expires: {expiry_date}</code>
+<code> [玄] Features unlocked</code>
+<code> [玄] Limit: {PREMIUM_LIMIT} CCs</code>
+<code> [玄] Priority processing</code>
 ━━━━━━━━
 <code>API: @SoyJaruTsb</code>
     """, parse_mode='HTML')
@@ -1464,3 +1464,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
