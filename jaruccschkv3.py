@@ -1290,7 +1290,7 @@ async def code_command(update: Update, context: CallbackContext):
         await update.message.reply_text("❌ Command only for owner!")
         return
     if len(context.args) != 1:
-        await update.message.reply_text("Usage: /code <days>")
+        await update.message.reply_text("Usage: /keys <days>")
         return
     try:
         days = int(context.args[0])
@@ -1464,6 +1464,7 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
 
 
